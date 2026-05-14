@@ -1,0 +1,9 @@
+.filterBarSec{
+    width: 200px;
+    height: max-content;
+}
+
+.filterBarSecInner{
+    width: 100%;
+    height: max-content;
+}

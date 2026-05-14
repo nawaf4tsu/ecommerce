@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class='wholeBody container-fluid'>
+        <header class=' headBar'>
+            <div class='container headBarInner'>
+                <div class='right'>
+                    <div class='logo'>
+                        <a href="#">
+                            <h2>ZOEBIC</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="center">
+                    <nav>
+                        <ul>
+                            <li><a class='active' href="#">Home</a></li>
+                            <li><a class='inActive' href="#">insights</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class='left'>
+                    <div class="signInSignUp">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class='secOne'>
+            <div class='dashBoardHeading'>
+                <h1>
+                    Add Products
+                </h1>
+
+            </div>
+            <div class='formSec'>
+                <div class='formSecInner'>
+                    <form action="/submit" id="form" method="post" enctype="multipart/form-data">
+                        <label for="proSimpleName">proSimpleName</label>
+                        <input type="text" name='proSimpleName' id='proSimpleName' />
+                        <label for="proMainName">proMainName</label>
+                        <input type="text" name="proMainName" id="proMainName" />
+                        <label for="proMrpPrice">proMrpPrice</label>
+                        <input type="text" name="proMrpPrice" id="proMrpPrice" />
+                        <label for="proPrice">proPrice</label>
+                        <input type="text" name="proPrice" id="proPrice" />
+                        <label for="proDescription">proDescription</label>
+                        <textarea type="text" name="proDescription" id="proDescription"></textarea>
+                        <label for="imgSelector">select</label>
+                        <input type="file" name="proImage" id="imgSelector" multiple />
+
+                        <select name="category" id="proCategory">
+                            <option value="electronics">Electronics</option>
+                            <option value="Toys">Toys</option>
+                            <option value="SkinCares">Skin Cares</option>
+                            <option value="MobileAccessories">Mobile Accessories</option>
+                        </select>
+
+                        <select name="proPosition" id="proPosition">
+                            <option value="mostPopular">Most Popular</option>
+                            <option value="currentDeals">Current Deals</option>
+                            <option value="normalProduct">normal Product</option>
+                            <option value="newArrivals">New Arrivals</option>
+                        </select>
+
+                        <button class='proSubButton' type="submit">Submit product</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="secOne">
+            <div class='dashBoardHeading'>
+                <h1>
+                    available stocks
+                </h1>
+
+            </div>
+            <div class='listProSec'>
+                <div class='listproSecInner'>
+                    <div class="listProCategory" id="listProCategory">
+                        <div class="listProList" id="listProList">
+                            <img src="" alt="">
+                            <p class="listProSimpleName">listProSimpleName</p>
+                            <p class="listProMainName">listProMainName</p>
+                            <p class="listProMainName">listProMainName</p>
+                            <p class="listProCategory">listProCategory</p>
+                            <button id="btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

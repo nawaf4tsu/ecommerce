@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Sans+Gunjala+Gondi:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --nunito: "Nunito", sans-serif;
+    --saira: "Saira", sans-serif;
+    --cairo: "Cairo", sans-serif;
+    --noto: "Noto Sans Gunjala Gondi", sans-serif;
+    --primarybg: rgb(227, 255, 235);
+    --secondarybg: #ffffff;
+    --mainBlack: #201f21;
+    --primaryColor: rgb(59, 255, 114);
+    --poppins: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+.star {
+    color: #f3c717;
+}
+
+.wholeBody {
+    height: 400vh;
+    width: auto;
+}
+
+
+.headBar {
+    width: 100%;
+    height: 75px;
+}
+
+.headBarInner {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--secondarybg);
+    padding: 0 20px 0 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--primaryColor);
+    box-shadow: 0 0 22px -6px;
+}
+
+.right {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    font-family: var(--nunito);
+}
+
+.center {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.inActive,
+.active {
+    font-size: 15px;
+    font-family: var(--saira);
+    font-weight: 450;
+    color: var(--mainBlack);
+}
+
+.active {
+    color: var(--primaryColor);
+}
+
+.inActive:hover {
+    color: var(--primaryColor);
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    width: max-content;
+    height: 100%;
+}
+
+.signInSignUp {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signInSignUp button {
+    width: 110px;
+    height: 45px;
+    font-size: 16px;
+    font-family: var(--noto);
+    font-weight: 600;
+    border: none;
+}
+
+.signIn {
+    background: transparent;
+    color: var(--btnClr);
+}
+
+.signUp {
+    background-color: var(--btnClr);
+    border-radius: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secOne {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 40px;
+    padding: 30px;
+    color: var(--mainBlack);
+    font-family: var(--cairo);
+}
+
+body {
+    background-color: var(--primarybg);
+}
+
+.formSec {
+    width: 60vw;
+    height: max-content;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--secondarybg);
+    box-shadow: 0 0 22px -6px;
+}
+
+.formSecInner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formSecInner form {
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    gap: 20px 0;
+}
+
+.formSecInner input,
+.formSecInner textarea,
+#proCategory ,#proPosition{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid var(--primaryColor);
+    outline: none;
+    padding: 10px;
+}
+
+
+
+#proCategory>option ,#proPosition>option {
+    appearance: inherit;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid var(--primaryColor);
+    background-color: var(--primarybg);
+    color: var(--mainBlack);
+    outline: none;
+}
+
+
+.formSecInner textarea {
+    height: 80px;
+    padding: 10px;
+}
+
+.formSecInner input:focus,
+.formSecInner textarea:focus {
+    box-shadow: 0 0 5px 2px var(--primaryColor);
+}
+
+.proSubButton {
+    width: 50%;
+    height: 40px;
+    font-family: var(--nunito);
+    font-size: 15px;
+    padding: 10px;
+    background-color: var(--primaryColor);
+    border-radius: 20px;
+    border: 2px solid var(--secondarybg);
+}
+
+label {
+    cursor: text;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+
+    /* listing section */
+    /* listing section */
+    /* listing section */
+    /* listing section */
+
+
+.listProSec {
+    width: 60vw;
+    height: max-content;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: var(--secondarybg);
+    box-shadow: 0 0 22px -6px;
+
+}
+
+.listProSecInner {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.listProCategory {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+}
+
+.listProList {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid var(--primaryColor);
+}
+
+.listProList img {
+    width: 100px;
+    height: max-content;
+}
+
+.listProList button{
+    font-family: var(--nunito);
+    font-size: 15px;
+    padding: 15px;
+    background-color: var(--primaryColor);
+    border-radius: 50px;
+    border: 2px solid var(--secondarybg);
+}

@@ -1,0 +1,131 @@
+.proCard {
+    width: 240px;
+    height: max-content;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+
+}
+
+.proImgSec {
+    background-color: var(--firsSec-bg);
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.proImgSecInner {
+    width: 100%;
+    height: 230px;
+    padding: 20px;
+}
+
+.proImgSec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.proDescSec {
+    height: max-content;
+    width: 100%;
+}
+
+.proDescSecInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+
+}
+
+.ProNameSec {
+    width: 85%;
+    height: max-content;
+    word-wrap: break-word;
+}
+
+.ProNameSec h2 {
+    font-size: 18px;
+    font-family: var(--noto);
+    font-weight: 700;
+}
+
+.reviewAndPriceSec {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.reviewSec {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    font-family: var(--poppins);
+}
+
+.priceSec {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    text-align: right;
+}
+
+.mrpOfPro {
+    font-size: 11px;
+}
+
+#mrpOfPro {
+    text-decoration: line-through;
+}
+
+.proCardBtnSec {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1px;
+}
+
+.proCardBtnView {
+    width: 39%;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid var(--mainBlack);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proCardBtnAddToCart {
+    width: 59%;
+    height: 40px;
+    border: none;
+    background-color: var(--mainBlack);
+    color: var(--searchObjClr);
+    border-radius: 50px;
+}
+
+
+.productLink {
+    width: max-content;
+    height: max-content;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}

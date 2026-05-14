@@ -1,0 +1,27 @@
+.valueBadgeBox{
+    width: 100%;
+    height: 120px;
+    background-color: var(--searchBarBg  );
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: var(--mainBlack);
+}
+
+.valueBadgeBoxes{
+    width: 150px;
+    word-break: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    font-family: var(--nunito);
+}
+
+.valueBadgeBoxes i{
+    font-size: 40px;
+}
+

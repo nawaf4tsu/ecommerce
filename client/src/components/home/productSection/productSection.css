@@ -1,0 +1,51 @@
+.hmPageProductsSec {
+    width: 100%;
+    height: max-content;
+}
+
+.hmPageProductsSec {
+    width: 100%;
+    height: max-content;
+    display: grid;
+}
+
+.hmMostPopSec {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    row-gap: 35px;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.hmheadingOfMostPopSec {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+.hmheadingOfMostPopSec h2 {
+    font-size: 30px;
+    font-family: var(--cairo);
+    width: max-content;
+}
+
+.hmheadingOfMostPopSec p {
+    font-size: 14px;
+    font-family: var(--nunito);
+    width: 300px;
+}
+
+.hmPopProducts {
+    margin-top: 3vh;
+    width: 100%;
+    height: max-content;
+    gap: 30px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

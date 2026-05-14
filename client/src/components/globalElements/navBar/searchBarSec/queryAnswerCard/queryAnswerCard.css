@@ -1,0 +1,54 @@
+.searchCard {
+    width: 155px;
+    height: 200px;
+    background-color: var(--searchBarBg);
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid #a1a0a045;
+}
+
+.searchCardLink{
+    height: max-content;
+    width: max-content;
+}
+
+.SearchCardImage {
+    width: initial;
+    height: 80%;
+    background-color: var(--firsSec-bg);
+    border-radius: 10px;
+}
+
+.SearchCardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.SimpleName {
+    font-size: 14px;
+    font-family: var(--fontForNumber);
+    margin-top: 5px;
+    color: var(--mainBlack);
+    font-weight: 550;
+}
+
+.proPrice {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: var(--fontForNumber);
+    color: var(--mainBlack);
+}
+
+.proPrice span{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: rgb(95, 95, 95);
+}
+
+
+.searchCard:hover{
+    transform: scale(1.01) translateY(-3px) ;
+    box-shadow:0 10px 30px rgba(26,23,20,0.1);
+border: 1px solid #43414145;
+}
